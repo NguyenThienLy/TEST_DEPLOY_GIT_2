@@ -1,0 +1,106 @@
+.body-intro{
+    background-color: 	rgb(10, 25, 47);
+    margin-bottom: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+}
+
+.intro-timeline_tab {
+    float: left;
+    background-color: transparent;
+    width: 10%;
+    height: 300px;
+    padding-top: 22px;
+    padding-right: 7%;
+}
+
+/* button tab */
+.intro-timeline__tab-item{
+    display: block;
+    background-color: inherit;
+    color: rgb(243, 221, 221);
+    border-left: 2px solid rgb(243, 221, 221)!important;
+    padding: 10px 16px;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+    opacity: 0.6;
+    border: none;
+    padding: 15px 15px 15px 15px !important;
+}
+
+/* Change background color of buttons on hover */
+.intro-timeline__tab-item:hover {
+    background-color: 	rgb(21, 35, 56);
+    color: rgb(92, 234, 202);
+    opacity: 1 !important;
+    padding-right: 100px !important;
+   
+}
+  
+  /* Create an active/current "tab button" class */
+.intro-timeline__tab-item.active {
+    background-color: rgb(21, 35, 56);
+    color:rgb(92, 234, 202);
+    opacity: 1 !important;
+    padding-right: 100px !important;
+    font-family: 'Fira Code', monospace;
+    border-left: 2px solid rgb(92, 234, 202) !important;
+}
+
+/* Style the tab content */
+.intro-timeline__item {
+    float: left;
+    padding: 10px 12px; 
+    width: 50%;
+    height: 100%;
+    margin-bottom: 50px;
+
+}
+
+.item-title__content{
+    color: rgb(141, 152, 181)
+}
+
+.item-title__link{
+    margin-left: 10px;
+    font-size: 20px;
+    color:rgb(92, 234, 202);
+    text-decoration: none;
+}
+
+.item-title{
+    display: flex;
+    align-items: center;
+}
+
+.item-body{
+    color: rgb(150, 157, 177);
+    width: 100%;
+}
+
+.item-body__content{
+    margin-right: 10px;
+    padding-left: 20px;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 24px;
+}
+
+.item-body__content::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    align-items: flex-start;
+    transform: translateY(-50%);
+    color: rgb(100, 255, 218);
+    line-height: 12px;
+}
+  
+  

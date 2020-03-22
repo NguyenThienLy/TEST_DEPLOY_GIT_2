@@ -1,0 +1,24 @@
+.menu_list{
+    display: flex;
+    list-style: none;
+}
+.menu_item{
+    position: relative;
+    margin: 0px 10px;
+    text-align: right;
+    color: rgb(100, 255, 218);
+    font-size: 12px;
+    font-family: 'Fira Code', monospace;
+}
+.menu_itemTaga{
+    display: inline-block;
+    color: aliceblue;
+    position: relative;
+    cursor: pointer;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.menu_itemTaga:hover{
+    color: rgb(100, 255, 218);
+}

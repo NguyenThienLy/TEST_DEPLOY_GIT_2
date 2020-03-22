@@ -1,0 +1,56 @@
+.report-item {
+  width: 300px;
+  height: 110px;
+  margin: 10px;
+  background-color: #293d5a;
+  padding: 30px 20px;
+  border-radius: 7px;
+}
+
+.report-item__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-item__date {
+  text-decoration: none;
+  color: #64ffda;
+  font-family: 'Fira Code', monospace;
+  font-size: 13px;
+}
+
+.report-item__link__item {
+  color: #ccd6f6;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.report-item__body__title {
+  color: #ccd6f6;
+}
+
+.report-item__body__content {
+  margin-top: 0;
+  color: #a8b2d1;
+}
+
+.report-item__footer__list {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+.report-item__footer__list__item {
+  margin-right: 10px;
+}
+
+.report-item__footer__list__item__link {
+  text-decoration: none;
+  color: #a8b2d1;
+  font-family: 'Fira Code', monospace;
+  font-size: 13px;
+}
+
+.report-item__footer__list__item__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,6 @@
+.reports {
+  display: grid;
+  align-items: start;
+  grid-template-columns: auto auto;
+  width: 700px;
+}

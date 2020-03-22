@@ -1,0 +1,35 @@
+/* #region Project title */
+.title {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  color: #ffffff;
+  margin-top: 200px;
+}
+
+.title__number {
+  margin-right: 7px;
+  color: #64ffda;
+  font-size: 17px;
+  font-family: "Fira Code", monospace;
+}
+
+.title__content {
+  font-weight: 00 !important;
+  font-size: 24px;
+  color: #ccd6f6;
+}
+
+.title__line {
+  border-top: 0.5px solid #ccd6f6;
+  width: 300px;
+  z-index: 1;
+  left: 0;
+  height: 0.5px;
+  margin-left: 10px;
+}
+
+.title--style-primary {
+  font-family: 'Fira Code', monospace;
+}
+/* #endregion Project title */

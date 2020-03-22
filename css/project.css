@@ -1,0 +1,100 @@
+.project {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 400px;
+}
+
+.project__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.project__title__feature {
+  color: #64ffda;
+  font-size: 15px;
+  font-family: "Fira Code", monospace;
+}
+
+.project__title__name {
+  color: #ccd6f6;
+  font-size: 27px;
+  text-align: right;
+}
+
+.project__content {
+  width: 25%;
+  margin: 0;
+  color: #ccd6f6;
+  padding: 20px;
+  border: none;
+  z-index: 2;
+  background-color: #293d5a;
+  border-radius: 7px;
+  text-align: right;
+  color: #ccd6f6;
+  width: 45%;
+}
+
+.project__image {
+  z-index: 0;
+  position: absolute;
+  display: flex;
+}
+
+.project__image__src {
+  height: 400px;
+  width: 600px;
+  border-radius: 7px;
+}
+
+.project__technology__list,
+.project__link__list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.project__technology__list__item {
+  margin-left: 10px;
+}
+
+.project__link__item {
+  margin-left: 15px;
+}
+
+.project__technology__list__item__link,
+.project__link__item__link {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Fira Code", monospace;
+}
+
+.project__link__item__link {
+  font-size: 27px;
+}
+
+.project__technology__list__item__link:hover {
+  text-decoration: underline;
+}
+.project--reverse .project__title__name {
+  text-align: left !important;
+}
+
+.project--reverse .project__container {
+  align-items: flex-start !important;
+}
+
+.project--reverse .project__content {
+  text-align: left !important;
+}
+
+.project--reverse .project__image {
+  right: 0 !important;
+}

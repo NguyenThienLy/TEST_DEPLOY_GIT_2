@@ -1,0 +1,25 @@
+.get-in-touch {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: 	rgb(10, 25, 47);
+}
+
+.get-in-touch__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get-in-touch__button{
+    display: flex;
+    justify-content: center;
+}
+.text--center{
+    text-align: center;
+    width: 35%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color:rgb(136, 146, 176);
+}

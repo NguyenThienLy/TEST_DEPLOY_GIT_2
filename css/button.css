@@ -1,0 +1,45 @@
+.btn--item{
+    color: rgb(10, 238, 185);
+    background-color: transparent;
+    line-height: 1;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(5, 133, 103);
+    border-radius: 3px;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
+}
+
+.btn--item:hover{
+    background-color: rgb(20, 92, 75);
+}
+
+.btn--secondary {
+    color: rgb(10, 238, 185);
+    background-color: transparent;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: thin;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: rgb(5, 133, 103);
+    border-radius: 3px;
+    padding: 0.75rem 1rem;
+    margin-top: 20px;
+    font-family: 'Fira Code', monospace;
+}
+
+.btn--secondary:hover{
+    background-color:rgb(16, 41, 59)
+}

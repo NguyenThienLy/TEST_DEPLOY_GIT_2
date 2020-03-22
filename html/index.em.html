@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/aboutUs.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/title.css" />
+    <script
+      src="https://kit.fontawesome.com/4413904649.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #0a192f;
+      }
+    </style>
+    <link rel="stylesheet" href="/css//imageSlide.css" />
+  </head>
+  <body>
+    <div class="about-us">
+      <div class="about-us__image">
+        <img
+          src="http://picsum.photos/1080"
+          alt="about us image"
+          class="about-us__image__content"
+        />
+      </div>
+      <div class="about-us__content">
+        <div class="about-us__content__title">
+          <h2 class="about-us__content__title__big">03</h2>
+          <h2 class="about-us__content__title__small">OF US</h2>
+        </div>
+        <p class="about-us__content__description">
+          Strategists, designers, developers, marketers, content creators and
+          project managers - one team for all of your digital marketing needs.
+        </p>
+        <ul class="about-us__content__preview">
+          <li class="about-us__content__preview__item">
+            <a href="#!" class="about-us__content__preview__link">
+              Hoang
+            </a>
+            <span class="about-us__content__preview__item__line"> </span>
+          </li>
+          <li class="about-us__content__preview__item">
+            <a href="#!" class="about-us__content__preview__link">
+              Tuan
+            </a>
+            <span class="about-us__content__preview__item__line"> </span>
+          </li>
+          <li class="about-us__content__preview__item">
+            <a href="#!" class="about-us__content__preview__link">
+              Ly
+            </a>
+            <span class="about-us__content__preview__item__line"> </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="images-slide">
+      <div class="images-slide__content images-slide__content--fade">
+        <img
+          src="https://picsum.photos/300"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/200"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/400"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/500"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/600"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/700"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+      </div>
+      <div class="images-slide__content images-slide__content--fade">
+        <img
+          src="https://picsum.photos/350"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/250"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/450"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/550"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/650"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/750"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+      </div>
+      <div class="images-slide__content images-slide__content--fade">
+        <img
+          src="https://picsum.photos/380"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/280"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/480"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/580"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/680"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+        <img
+          src="https://picsum.photos/780"
+          alt="some thing greate"
+          class="images-slide__content__image"
+        />
+      </div>
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i = 0;
+        var slides = document.getElementsByClassName("images-slide__content");
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "flex";
+        setTimeout(showSlides, 5000);
+      }
+    </script>
+  </body>
+</html>

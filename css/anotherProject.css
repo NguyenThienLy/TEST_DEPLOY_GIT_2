@@ -1,0 +1,78 @@
+.other-project__title {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.other-project__title__content {
+  color: #ccd6f6;
+  margin-bottom: 0;
+}
+
+.other-project__title_small {
+  color: #64ffda;
+  margin-top: 10px;
+}
+
+.other-project__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.other-project__list__item {
+  width: 27.5%;
+  height: 300px;
+  margin: 10px;
+  background-color: #293d5a;
+  padding: 30px 20px;
+  border-radius: 7px;
+}
+
+.cart-project__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-project__icon {
+  color: #64ffda;
+  font-size: 40px;
+}
+
+.cart-project__link__item {
+  color: #ccd6f6;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.cart-project__body__title {
+  color: #ccd6f6;
+}
+
+.cart-project__body__content {
+  margin-top: 0;
+  color: #a8b2d1;
+}
+
+.cart-project__footer__list {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+.cart-project__footer__list__item {
+  margin-right: 10px;
+}
+
+.cart-project__footer__list__item__link {
+  text-decoration: none;
+  color: #a8b2d1;
+  font-family: 'Fira Code', monospace;
+  font-size: 13px;
+}
+
+.cart-project__footer__list__item__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+.social {
+ position: fixed;
+ left: 4%;
+ bottom: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ z-index: 1;
+}
+
+.social__list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 55px;
+}
+
+.social__list__item > a{
+    color: rgb(136, 146, 176);
+}
+
+.social__list__item {
+    color: rgb(136, 146, 176);
+}
+
+.social__list__item:hover {
+    color: rgb(100, 255, 218);
+    transform: translateY(10px);   
+}
+
+.social__line {
+    border-left: 1px solid rgb(204, 214, 246);
+    height: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}

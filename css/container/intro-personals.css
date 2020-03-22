@@ -1,0 +1,8 @@
+.intro-personals {
+  margin-top: 30px;
+  display: flex;
+}
+
+.intro-personals--block {
+  display: block;
+}

@@ -1,0 +1,43 @@
+.images-slide {
+  padding: 0 150px;
+}
+
+.images-slide__content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+/* Fading animation */
+.images-slide__content--fade {
+  -webkit-animation-name: images-slide__content--fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: images-slide__content--fade;
+  animation-duration: 1.5s;
+}
+
+.images-slide__content__image {
+  height: auto;
+  width: 23.5%;
+}
+
+
+
+@-webkit-keyframes images-slide__content--fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes images-slide__content--fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

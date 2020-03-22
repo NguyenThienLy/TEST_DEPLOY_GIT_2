@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/logo.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/container/headerPersonal.css">
+    <link rel="stylesheet" href="../css/container/introMyseft.css">
+    <link rel="stylesheet" href="../css/footerPersonal.css">
+    <link rel="stylesheet" href="../css/container/getIntouch.css">
+    <link rel="stylesheet" href="../css/title.css">;
+    <link rel="stylesheet" href="../css/container/introTimeline.css">
+    <link rel="stylesheet" href="../css/container/services.css">
+    <link rel="stylesheet" href="../css/container/support.css">
+    <link rel="stylesheet" href="../css/aboutUs.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="logo header__logo">
+            <a class="logo_link" href="index.hoang.html">
+                <img class="logo_img"
+                    src="https://www.nashtechglobal.com/wp-content/themes/nashtech/library/images/NashTech-logo-new.svg"
+                    alt="">
+            </a>
+        </div>
+
+        <div class="menu header__menu">
+            <ol class="menu_list">
+                <li class="menu_item"><span class="menu_span">01.</span><a class="menu_itemTaga" href="#">About</a></li>
+                <li class="menu_item"><span class="menu_span">02.</span><a class="menu_itemTaga" href="#">Experience</a>
+                </li>
+                <li class="menu_item"><span class="menu_span">03.</span><a class="menu_itemTaga" href="#">Word</a></li>
+                <li class="menu_item"><span class="menu_span">04.</span><a class="menu_itemTaga" href="#">Contact</a>
+                </li>
+            </ol>
+            <!-- button -->
+            <div class="btn header__button">
+                <a class="btn btn--item">Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="intro-my-seft">
+        <div class="intro-my-seft__text">
+            <span class="intro-my-seft__text text--hi">Hi, my name is</span>
+            <span class="intro-my-seft__text text--name">Brittany Chiang.</span>
+            <span class="intro-my-seft__text text--do"> I build things for the web.</span>
+            <span class="intro-my-seft__text text--intro">I'm a software engineer based in Boston, MA specializing in
+                building (and occasionally designing) exceptional, high-quality websites and applications.
+            </span>
+        </div>
+        <div class="intro-my-seft__button">
+            <a class="btn btn--get-in-touch">Get In Touch</a>
+        </div>
+    </div>
+
+    <div class="get-in-touch">
+        <div class="get-in-touch__text">
+            <span class="get-in-touch__text text--hi">04. What's next? </span>
+            <span class="get-in-touch__text text--name">Get In Touch.</span>
+            <span class="get-in-touch__text text--center">Although I'm not currently looking for freelance
+                opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my
+                best to answer your email!
+            </span>
+        </div>
+        <div class="get-in-touch__button">
+            <a class="btn btn--get-in-touch">Say hello</a>
+        </div>
+    </div>
+
+    <div class="body-intro">
+        <h3 class="title">
+            <div class="title__number">0.2</div>
+            <div class="title__content">Where I've Worked</div>
+            <div class="title__line"></div>
+        </h3>
+        <div class="intro-timeline">
+            <div class="intro-timeline_tab">
+                <button class="intro-timeline__tab-item" onclick="openCity(event, 'Upstatement')"
+                    id="defaultOpen">Upstatement</button>
+                <button class="intro-timeline__tab-item" onclick="openCity(event, 'Scout')">Scout</button>
+                <button class="intro-timeline__tab-item" onclick="openCity(event, 'Apple')">Apple</button>
+            </div>
+
+            <div id="Upstatement" class="intro-timeline__item">
+                <div class="item-title">
+                    <h2 class="item-title__content">Engineer</h2>
+                    <a class="item-title__link" href="#">@ Upstatement</a>
+                </div>
+
+                <div class="item-body">
+                    <span class="item-body time">May 2018 - Present</span>
+                    <p class="item-body__content">
+                        Write modern, performant, maintainable code for a diverse array of client and internal
+                        projects
+                    </p>
+
+                    <p class="item-body__content">
+                        Work with a variety of different languages, platforms, frameworks, and content management
+                        systems such as JavaScript, TypeScript, Gatsby, React, Craft, Wordpress, Prismic, and
+                        Netlify
+                    </p>
+                    <p class="item-body__content">
+                        Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on
+                        a daily basis
+                    </p>
+                </div>
+            </div>
+
+            <div id="Scout" class="intro-timeline__item">
+                <div class="item-title">
+                    <h2 class="item-title__content">Studio Developer</h2>
+                    <a class="item-title__link" href="#">@ Scout</a>
+                </div>
+                <div class="item-body">
+                    <span class="item-body time">Jan - April 2018</span>
+                    <p class="item-body__content">
+                        Worked with a team of three designers to build a marketing website and e-commerce platform for
+                        blistabloc, an ambitious startup originating from Northeastern
+                    </p>
+
+                    <p class="item-body__content">
+                        Helped solidify a brand direction for blistabloc that spans both packaging and web
+                    </p>
+                    <p class="item-body__content">
+                        Interfaced with clients on a weekly basis, providing technological expertise
+                    </p>
+                </div>
+            </div>
+
+            <div id="Apple" class="intro-timeline__item">
+                <div class="item-title">
+                    <h2 class="item-title__content">UI Engineer Co-op</h2>
+                    <a class="item-title__link" href="#"> @ Apple</a>
+                </div>
+                <div class="item-body">
+                    <span class="item-body time">July - Dec 2017</span>
+                    <p class="item-body__content">
+                        Developed and shipped highly interactive web applications for Apple Music using Ember.js
+                    </p>
+
+                    <p class="item-body__content">
+                        Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party
+                        and internal APIs
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sector-focus">
+        <h2 class="sector-focus__title">SECTOR FOCUS</h2>
+        <span class="sector-focus__content">We love the increased complexity of B2B and professional services sales
+            funnels and buying processes. We also work with several high profile Irish and international
+            charities.</span>
+        <div class="sector-focus__footer">
+            <a class="sector-focus__link" href="#">B2B</a>
+            <div class="link-line"></div>
+            <a class="sector-focus__link" href="#">NOT-FOR-PROFITS</a>
+            <div class="link-line"></div>
+            <a class="sector-focus__link" href="#">PROFESSIONAL SERVICES</a>
+        </div>
+    </div>
+
+    <div class="block-awards" style="margin-top: 150px;" id="section-our-work">
+        <div class="block-awards__synthetic">
+            <!-- <div class="block-awards__title">
+                <span class="block-awards__number title--style-primary">16 </span>
+                <span class="block-awards__content">Global Awards </span>
+            </div> -->
+
+            <div class="about-us__content__title">
+                <h2 class="about-us__content__title__big title--style-primary">16</h2>
+                <h2 class="about-us__content__title__small">Global Awards</h2>
+            </div>
+            <p class="block-awards__description">Over the years we have won 6 Eir Spider Awards and have previously
+                won
+                the ultimate accolade of ‘Best
+                Large Digital Agency’ in Ireland.
+            </p>
+        </div>
+        <img class="block-awards__logo"
+            src="https://www.nashtechglobal.com/wp-content/themes/nashtech/library/images/NashTech-logo-new.svg">
+    </div>
+
+    <div class="banner">
+        <h2 class="block-awards__title">Ready to reach for the next level?</h2>
+        <a class="banner__button">GET IN TOUCH</a>
+    </div>
+    
+    <div class="support">
+        <h2 class="block-awards__title">CONTINUE EXPLORING</h2>
+        <div class="line-content">
+            <a class="title-link">
+                <img class="line-content__image" src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg">
+                <h6 class="line-content__image-content">Our work</h6>
+                <div class="title__line images"></div>
+            </a>
+            <a class="title-link">
+                <img class="line-content__image"  src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg">
+                <h6 class="line-content__image-content">Service</h6>
+                <div class="title__line images"></div>
+            </a>
+            <a class="title-link">
+                <img class="line-content__image"  src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg">
+                <h6 class="line-content__image-content">Insights</h6>
+                <div class="title__line images"></div>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("intro-timeline__item ");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("intro-timeline__tab-item");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    <div class="footer">
+        <a class="footer__Link">Design and build by Team 2</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    color: rgb(204, 214, 246);
+    background-color: rgba(41, 61, 90, 0.99);
+    flex-wrap:wrap;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.header__menu{
+    display: flex
+}
